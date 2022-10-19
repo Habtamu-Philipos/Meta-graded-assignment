@@ -1,0 +1,132 @@
+body{
+    background-color: #EDEFEE;
+    font-family: 'Markazi Text', serif;
+    margin: 3rem 5%;
+}
+
+header > img {
+    display:block;
+    margin: auto;
+}
+
+
+ h2 {
+    font-size: 3rem;
+    overflow-wrap: break-word;
+    
+}
+
+
+
+
+nav {
+
+    background-color: #212121;
+    padding: 1rem;
+    margin-top: 1rem;
+    border-radius: 2rem;
+    overflow: hidden;
+}
+
+li a {
+    text-decoration: none;
+    color:rgb(235, 227, 227);
+    font-size: 2rem;
+}
+
+ul {
+    list-style: none;
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+
+}
+
+nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+nav a.active{
+    background-color: #04AA6D;
+    color:white;
+}
+
+#promotion {
+    
+    background-image: url(img/wesagn.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    padding: 170px 100px 100px 70px;
+    margin: 50px; 
+    font-size: 1rem;
+    border-radius: 2rem;
+    background-color: rgba(54, 197, 114, 0.6);
+    animation: myanimation 3s infinite ease-in;
+    background-blend-mode: multiply;
+    position:relative;
+
+}
+
+@keyframes myanimation{ 
+
+from{color: white; 
+
+} 
+
+ 
+
+to{color:green; 
+
+} 
+}
+
+
+#info {
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap:2rem;
+}
+
+#info-one, #info-two,#info-three{
+    background-color:white;
+    padding:2rem;
+    border-radius: 2rem;
+    color: rgb(58, 92, 14);
+    width:25rem;
+    
+
+    
+    
+}
+
+#info img{
+    float: left;
+    width:  20rem;
+}
+#sub-heading {
+    text-align: center;
+ 
+}
+
+#info-two {
+    text-align: center;
+
+}
+
+p{
+    font-size: 1.2rem;
+}
+
+button{
+    border-radius: 0.25rem;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4rem;
+}
